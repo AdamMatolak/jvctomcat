@@ -4,9 +4,10 @@
     <title>Hello_world</title>
 </head>
 <body>
-<form action="processFormV3" method="GET">
-<input type="text" name="studentName" placeholder="What is your name ?"/>
-<input type="submit"/>
- </form>
+Hello_world
+<br></br>
+Student name: ${param.StudentName}
+<br></br>
+The message: ${message}
 </body>
 </html>

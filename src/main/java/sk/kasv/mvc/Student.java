@@ -9,13 +9,13 @@ public class Student {
     private String favoriteLanguage;
     private String[] operatingSystem;
 
-    private LinkedHashMap<String, String> countryOptions;
+    private final LinkedHashMap<String, String> countryOptions;
     public Student() {
         countryOptions=new LinkedHashMap<>();
-        countryOptions.put("SVK","Slovakia");
-        countryOptions.put("FRA","France");
-        countryOptions.put("CZE","Czech");
-        countryOptions.put("BRA","Brazil");
+        countryOptions.put("SVK"," Slovakia ");
+        countryOptions.put("FRA"," France ");
+        countryOptions.put("CZE"," Czech ");
+        countryOptions.put("BRA"," Brazil ");
 
     }
 
